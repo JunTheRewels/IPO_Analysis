@@ -5,13 +5,21 @@ For project 1, our group chose to do an analysis of IPOs over the last decade. O
 We began with a csv file containing IPO data from 1996 to 2018. We decided to just focus on the last 10 years (since 2011), and since we were determining whether IPOs are generally worth the hype, we chose initial trading volume as a determiner for our sample set. In the file ***csv_reader.ipynb***, we pared it down from thousands of columns to fewer than 10, and then filtered the content to produce a dataframe that displayed only the top 10 IPOs by initial trading volume (w/in the first month) per year.
 
 ![1](/images/01.png)
+
 ![2](/images/02.png)
+
 ![3](/images/03.png)
+
 ![4](/images/04.png)
+
 ![5](/images/05.png)
+
 ![6](/images/06.png)
+
 ![7](/images/07.png)
+
 ![8](/images/08.png)
+
 ![9](/images/09.png)
 
 To get the data for 2019-2021, we located a website that contained all of the IPOs from that time period, used file ***ipo's_2019-2021.ipynb*** to copy the data into a csv file and similarly pared it down to provide us with our needed samples. We were planning to use API calls to gather performance data on our sample set, but the returned data was incomplete and we thus had to pull the data on each security one-by-one from Yahoo Finance in csv format and create the aggregated files in excel.
